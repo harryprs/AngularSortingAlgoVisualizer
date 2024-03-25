@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration=production --base-href https://harryprs.github.io/AngularSortingAlgoVisualizer/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
