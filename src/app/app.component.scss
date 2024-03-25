@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: black;
+    padding: 0.5rem;
+}
+
+    h1 {
+        color: white;
+    }   
+
+.settings-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding: 0.5rem;
+    background-color: antiquewhite;
+}
+
+.speed-range {
+    direction: rtl;
+}
+
+.algorithm-row {
+    display: block;
+    padding: 0.5rem;
+    background-color: lightsteelblue;
+}
