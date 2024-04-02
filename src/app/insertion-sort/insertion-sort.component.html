@@ -1,3 +1,7 @@
-<p>insertion-sort works! Cool quick sort facts!</p>
+<p>Insertion sort starts from the second index in the array, the element is repeatedly compared against its predecessor making swaps if the element is less than the predecessor. 
+    Once the element is greater than the predecessor, no further changes are made and the algorithm moves onto the next unsorted index.</p>
+<p>Insertion sort has a best-case complexity of O(n) if the array is already sorted, making it excellent for smaller arrays.</p>
+<p>It has a worst-case complexity of O(n^2) if the array is already sorted in reverse order.</p>
+<p>The average case is also O(n^2), meaning it's not appropriate for larger arrays.</p>
 
 <app-array-visualizer [algo]="algoStr"></app-array-visualizer>
